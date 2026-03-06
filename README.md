@@ -21,6 +21,8 @@ Custom functions are executed just like any core Python function. Simply type th
 
 `myNewFunction()`
 
+Important note: Because of scoping, variables defined in a function, just as in a script, are local to that variable and cannot be accessed outside of the function.
+
 ## In-Class Exercise 1
 
 ```
